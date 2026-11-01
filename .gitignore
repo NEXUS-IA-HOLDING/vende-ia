@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+*.orig.*
+*.rej
+*.log
+
+# Entorno y secretos
+.env
+.env.*
+*.pem
+google-services.json
+GoogleService-Info.plist
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Build
+build/
+ios/Pods/
+android/app/build/
+android/.gradle/
