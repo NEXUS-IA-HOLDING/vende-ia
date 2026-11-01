@@ -164,7 +164,7 @@ export default function App() {
   const [usage, setUsage] = useState(0);
   const [cur, setCur] = useState(null);
   const [msgs, setMsgs] = useState([
-    { id: nid(), who: "agent", text: "¡Hola Raquel! 👋 Soy tu agente IA de compra-venta.\n\n**Vender:** hazme una foto del artículo y genero título SEO, descripción y precio recomendado para Wallapop, Vinted y eBay.\n\n**Comprar:** dime qué buscas y rastreo las mejores ofertas en AliExpress, Temu, eBay, Alibaba y 1688 calculando el **coste total real** (envío + aranceles + IVA), para particulares o por mayor." },
+    { id: nid(), who: "agent", text: "¡Hola! 👋 Soy tu agente IA de compra-venta.\n\n**Vender:** hazme una foto del artículo y genero título SEO, descripción y precio recomendado para Wallapop, Vinted y eBay.\n\n**Comprar:** dime qué buscas y rastreo las mejores ofertas en AliExpress, Temu, eBay, Alibaba y 1688 calculando el **coste total real** (envío + aranceles + IVA), para particulares o por mayor." },
   ]);
   const [busy, setBusy] = useState(false);
   const [step, setStep] = useState(-1);
